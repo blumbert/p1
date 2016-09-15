@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+#person {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 300px;
+}
+
+#projectsContainer {
+    text-align: justify;
+}
+
+@media screen and (max-width: 603px) {
+    #projectsContainer {
+        text-align: center;
+    }
+}
+
+#projectsContainer:after {
+  content: '';
+  width: 100%; /* Ensures justification for single lines */
+  display: inline-block;
+}
+
+.projectContainer {
+    text-align: center;
+    display: inline-block;
+    min-width: 300px;
+    margin-bottom: 40px;
+}
+
+.projectHeading {
+    font-size: x-large;
+}
+
+.projectTitle {
+    font-size: large;
+}
