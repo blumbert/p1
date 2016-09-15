@@ -4,7 +4,7 @@ body {
 
 #person {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 img {
@@ -13,9 +13,16 @@ img {
 
 #projectsContainer {
     text-align: justify;
+    margin: 0 80px 0 80px;
 }
 
-@media screen and (max-width: 603px) {
+@media screen and (max-width: 803px) {
+    #projectsContainer {
+        margin: 0 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 683px) {
     #projectsContainer {
         text-align: center;
     }
@@ -32,6 +39,7 @@ img {
     display: inline-block;
     min-width: 300px;
     margin-bottom: 40px;
+    box-shadow: 0px 0px 20px;
 }
 
 .projectHeading {
